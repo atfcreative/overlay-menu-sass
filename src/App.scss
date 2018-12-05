@@ -201,10 +201,13 @@ body {
 
 // make the demo look nice, not required for your own use.
 .logo {
-  width: 200px;
-  height: 200px;
-  background: lighten(black, 10);
-  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+//   background: #38454c;
+//   border-radius: 50%;
+  background-image: url('images/branding.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 h1, h2, h3, p {
