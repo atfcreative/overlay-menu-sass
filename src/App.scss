@@ -17,7 +17,7 @@ $primary-color: #38C5B9;
 body {
   min-height: 100vh;
   background: $primary-color;
-  font-family: 'Open Sans';
+  font-family: 'Montserrat', sans-serif;
   color: white;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -32,8 +32,8 @@ body {
 .burger {
   position: absolute;
   z-index: 10;
-  right: 25px;
-  top: 25px;
+  left: 30px;
+  top: 30px;
   cursor: pointer;
   transform: rotateY(0);
   @include easeOut;
@@ -148,6 +148,7 @@ body {
     &:hover {
       &:before {
         width: 100%;
+        text-decoration: none;
       }
     }
   }
@@ -181,6 +182,11 @@ body {
  .menu__link {
    font-size: 24px;
  }
+
+ .menu__link:hover {
+    font-size: 24px;
+    text-decoration: none;
+  }
 
  .menu__brand {
    height: 25vh;
@@ -219,6 +225,15 @@ main {
     font-size: 48px;
     font-weight: 300;
   }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
 }
 
 .support {
